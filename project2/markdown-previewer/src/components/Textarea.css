@@ -1,0 +1,58 @@
+.textarea-toolbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #4aa3a3;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.textarea-container{
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.textarea-max-container{
+    margin-left: 84%;
+}
+
+.textarea-editor{
+    width: 99.3%;
+    height: 300px;
+    overflow: auto;
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+}
+
+.textarea-toolbar-title{
+    margin-left:1%;
+}
+
+.textarea-icon{
+    cursor: pointer;
+}
+
+.textarea-icon:hover{
+    color: white;
+}
+
+#previewer-icon-container{
+    margin-left: 84%;
+}
+
+#editor-container{
+    width: 37%;
+    margin-top: 2%;
+}
+
+#preview{
+    cursor: default;
+    resize: none;
+}
